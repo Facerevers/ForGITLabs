@@ -5,7 +5,11 @@ public class Main{
 		List<Product> productList = new ArrayList<>();
 		productList.add(new BottleOfWater("qwe", 123, 100));
 		productList.add(new BottleOfWater("ads", 200, 150));
-		
+		productList.add(new BottleOfWater("zxcg", 500, 1000));
+		productList.add(new BottleOfWater("qaffwe", 123, 10));
+		BottleOfWaterVendingMachine vendingMachine = new BottleOfWaterVendingMachine();
+		vendingMachine.initProduct(productList);
+
 	}
 	
 }
