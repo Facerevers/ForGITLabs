@@ -9,7 +9,14 @@ public class Main{
 		productList.add(new BottleOfWater("qaffwe", 123, 10));
 		BottleOfWaterVendingMachine vendingMachine = new BottleOfWaterVendingMachine();
 		vendingMachine.initProduct(productList);
-
+		System.out.println(vendingMachine.getProduct("qwe"));
+		productList.add(new HotDrink("wert", 100, 200, 56));
+		productList.add(new HotDrink("asdf", 200, 200, 60));
+		productList.add(new HotDrink("zxcv", 300, 100, 75));
+		productList.add(new HotDrink("yuio", 300, 150, 90));
+		HotDrinkVendingMachine vendingMachine = new HotDrinkVendingMachine();
+		vendingMachine.initProduct(productList);
+		System.out.println(vendingMachine.getProduct("wert"));
 	}
 	
 }
