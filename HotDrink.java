@@ -4,6 +4,5 @@ public class HotDrink extends BottleOfWater{
 		super(name, cost, volume);
 		this.temperature = temperature;
 	}
-
-	}
+	
 }
