@@ -7,5 +7,11 @@ public class HotDrink extends BottleOfWater{
 	public int getTemperature(){
 		return temperature;
 	}
-	
+	public void setTemperature(int temperature){
+		this.temperature = temperature;
+	}
+	@Override
+	public String toString(){
+		return "BottleOfWater{" + "name=" + super.getName() + ";cost=" + super.getCost + ";volume=" + super.volume + ";temperature=" temperature"}";
+	}
 }
